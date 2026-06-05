@@ -1,6 +1,8 @@
 # Hi, I'm Derek
 
-I'm a product manager. I run **Unlikely Labs**, an AI consultancy focused on PM-led AI engineering, and I build tooling for people who do real work with AI agents every day. Two pieces of it are below — both MIT, both filesystem-native, both pulled straight out of daily use rather than a product roadmap.
+I'm a product manager with 13 years in deep-tech startups, building first-of-its-kind products where hardware meets software. As the #2 hire at Red 6, I co-owned the roadmap for the world's first in-cockpit augmented reality system for fighter pilots and ran the 0-to-1 prototype that led to $120M+ raised, scaling the team from 5 to 150+.
+
+Now I run **Unlikely Labs**, an AI consultancy focused on PM-led AI engineering, and I build tooling for people who do real work with AI agents every day. Two pieces of it are below — both MIT, both filesystem-native, both pulled straight out of daily use rather than a product roadmap.
 
 ---
 
@@ -8,7 +10,7 @@ I'm a product manager. I run **Unlikely Labs**, an AI consultancy focused on PM-
 
 **[github.com/derekcedarbaum2/memory-os](https://github.com/derekcedarbaum2/memory-os)**
 
-Most "AI memory" tooling sells you a vector DB and calls it cognition. Mem0, Letta, Zep, Cognee — different logos, same shape. `memory-os` goes the other way: Markdown files, three-tier persistent memory, adversarial review loops, distillation pipelines, and a self-healing automation layer that runs on cron. No vector DB. No SaaS.
+Most "AI memory" tooling sells you a vector DB and calls it cognition. Mem0, Letta, Zep, and Cognee all make the same bet: embed your notes, retrieve by vector similarity. `memory-os` goes the other way: Markdown files, three-tier persistent memory, adversarial review loops, distillation pipelines, and a self-healing automation layer that runs on cron. No vector DB. No SaaS.
 
 The thesis: **writing-layer over retrieval-layer.** The work of organizing memory has to happen somewhere. Vector DBs pay for it on every retrieval; this system pays once, at write time, with version history. For a single knowledge worker with a lived-in vault and a capable agent, that trade wins on transparency, debuggability, longevity, and cost. Outside that envelope — multi-tenant, vocabulary drift across users, 100k+ docs you didn't write — use a vector DB.
 
